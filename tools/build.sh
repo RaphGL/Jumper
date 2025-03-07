@@ -14,7 +14,7 @@ else
 	cd $projectRoot/bin/debug/
 
 	cp -r $projectRoot/res/ $projectRoot/bin/debug/
-	odin run $projectRoot/src/ -opt:0 -out:jumper -thread-count:8 -debug
+	odin run $projectRoot/src/ -o:0 -out:jumper -thread-count:8 -debug
 fi
 
 cd $projectRoot
